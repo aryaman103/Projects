@@ -1,3 +1,4 @@
-# CS projects and practice applications
-
+# Projects
+CS projects and practice applications
+  
 
