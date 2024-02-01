@@ -1,0 +1,14 @@
+# image manipulation in python
+from PIL import Image
+
+def image_resize(sizel, size2):
+    img = Image.open("codewithtomi-logo.jpg")
+
+    print(f"Current size: {img.size}" )
+
+    image_resized = img.resize(( sizel, size2))
+    image_resized.save("codewithtomi-Pogo-" + str(size01) + ".jpeg")
+
+size01 = int(input("Enter Width: "))
+size02 = int(input("Enter Length: "))
+image_resize(size01, size02)
